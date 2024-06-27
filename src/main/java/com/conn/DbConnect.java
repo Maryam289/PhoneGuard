@@ -10,7 +10,7 @@ public class DbConnect {
 //		private static final String USERNAME = "root";
 //		// connection password
 //		private static final String PASSWORD = "123456";
-//		private static final String CONN_STRING = "jdbc:mysql://localhost:3306/phoneguarg";
+//		private static final String CONN_STRING = "jdbc:mysql://localhost:3306/phoneguard";
 
 	
 	private static Connection conn;
@@ -22,7 +22,7 @@ public class DbConnect {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 //			conn = DriverManager.getConnection(CONN_STRING, USERNAME, PASSWORD);
 
-			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/phoneguarg", "root", "123456");
+			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/phoneguard", "root", "123456");
 			}
 			
 		}catch ( SQLException | ClassNotFoundException ex) {

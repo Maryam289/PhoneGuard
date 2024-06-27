@@ -23,7 +23,7 @@ public class UserDAO {
 		try {
 			String sql="insert into user (name, email, password) VALUES(?, ?, ?)";
 			
-//			String sql="INSERT INTO `phonebook`.`user`(name, email, password) VALUES(?, ?, ?);";
+//			String sql="INSERT INTO `phoneguard`.`user`(name, email, password) VALUES(?, ?, ?);";
 			
 			PreparedStatement ps = conn.prepareStatement(sql);
 //			ps.setInt(1, u.getId());
